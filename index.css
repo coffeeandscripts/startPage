@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "GohuFont";
+}
+
+#mainPage {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#mainTitle {
+    text-align: center;
+    font-size: 32px;
+    background-color: #EE7785;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mainTitleContent {
+
+}
+
+#mainTitleContentDate {
+
+}
+
+#mainTitleContentTime {
+
+}
+
+#mainTabs {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#mainTab1 {
+    background-color: #67D5B5;
+}
+
+#mainTab2 {
+    background-color: #C89EC4;
+}
+
+#mainTab3 {
+    background-color: #84B1ED;
+}
+
+.tab {
+    width: 33%;
+    padding-top: 15px;
+    float: left;
+    opacity: 0.7;
+    margin-bottom: -15px;
+}
+
+.tabTitle {
+
+}
+
+.tabTitle p {
+    margin: 0 auto;
+    text-height: 0px;
+    margin-left: 15px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+.tabContent {
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tabContent ul {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.tabContent li {
+        font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 20px;
+    transition: background-color 0.5s;
+}
+
+.tabContent li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tabContent a {
+    color: black;
+    text-decoration: none;
+}
+
+.tabContent a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#mainSearch {
+
+}
