@@ -22,7 +22,13 @@ var showTime = function() {
         if (minutes < 10) {
             minutes = "0" + minutes;
         }
-        var time = d.getHours() + ":" + minutes + ":" + seconds;
+        var hours = d.getHours();
+        if (hours < 10) {
+            hours = "0" + hours;
+        } else if (hours > 12) {
+            hours = hours + 12;
+        }
+        var time = hours + ":" + minutes + ":" + seconds;
         $('#mainTitleContentDate').html(date);
         $('#mainTitleContentTime').html(time);
     }, 500);
