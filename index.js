@@ -40,3 +40,13 @@ var fadeInMain = function() {
 }
 
 $(document).ready(fadeInMain);
+
+var toggleMenu = function() {
+    $('.tab').hover(function() {
+        $(this).find('.tabContent').show('slow');
+    }, function() {
+        $(this).find('.tabContent').hide('slow');
+    })
+}
+
+$(document).ready(toggleMenu);
