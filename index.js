@@ -42,9 +42,22 @@ var fadeInMain = function() {
 $(document).ready(fadeInMain);
 
 var toggleMenu = function() {
-    $('.tab').click(function() {
-        $(this).find('.tabContent').toggle('toggle');
+    $('#mainTab1').click(function() {
+        $('#mainTab2').find('.tabContent').hide('fast');
+        $('#mainTab3').find('.tabContent').hide('fast')
+        $(this).find('.tabContent').toggle('slow');
     });
+    $('#mainTab2').click(function() {
+        $('#mainTab1').find('.tabContent').hide('fast');
+        $('#mainTab3').find('.tabContent').hide('fast')
+        $(this).find('.tabContent').toggle('slow');
+    });
+    $('#mainTab3').click(function() {
+        $('#mainTab1').find('.tabContent').hide('fast');
+        $('#mainTab2').find('.tabContent').hide('fast')
+        $(this).find('.tabContent').toggle('slow');
+    });
+
 }
 
 $(document).ready(toggleMenu);
