@@ -1,8 +1,13 @@
+@font-face {
+	font-family: "Gohu";
+	src: url("gohufont-11.ttf");
+}
+
 body {
     background-color: white;
     background-image: url("background.jpg");
     background-size: cover;
-    font-family: "GohuFont";
+    font-family: "Gohu";
 }
 
 #mainPage {
