@@ -32,7 +32,7 @@ body {
 
 #mainTitle {
     text-align: center;
-    font-size: 32px;
+    font-size: 2vw;
     background-color: #EE7785;
     opacity: 0.7;
     padding-top: 10px;
@@ -92,7 +92,7 @@ body {
     margin-left: 1.25vw;
     padding: 0px;
     padding-bottom: 10px;
-    font-size: 24px;
+    font-size: 1.6vw;
 }
 
 .tabContent {
